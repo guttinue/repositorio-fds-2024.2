@@ -16,8 +16,7 @@ Descrição: Desenvolveremos uma API que visa oferecer uma experiência personal
 ## Board do Jira
 [Board do jira](https://gdcesar.atlassian.net/jira/software/projects/KAN/boards/1)
 
-![Captura de tela 2024-09-02 182702](https://github.com/user-attachments/assets/d79a2f4e-3c70-4b5a-bbae-d00048ac5e3f)
-
+![Captura de tela 2024-09-02 183547](https://github.com/user-attachments/assets/64c20265-5132-48cc-9cc8-3fe3281107bf)
 ## Prototipo Lo-fi
 [Prototipo Lo-fi](https://dcio597715.invisionapp.com/freehand/Projetos---FDS-o4NOSJhnt)
 ## Screencast
