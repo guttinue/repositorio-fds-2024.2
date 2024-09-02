@@ -13,6 +13,8 @@ Descrição: Desenvolveremos uma API que visa oferecer uma experiência personal
 
 ## Backlog do Jira
 [Backlog do Jira](https://gdcesar.atlassian.net/jira/software/projects/KAN/boards/1/backlog)
+
+![Captura de tela 2024-09-02 183804](https://github.com/user-attachments/assets/53fd9347-705d-4671-aea6-1eda3bdcfb78)
 ## Board do Jira
 [Board do jira](https://gdcesar.atlassian.net/jira/software/projects/KAN/boards/1)
 
