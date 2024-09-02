@@ -12,7 +12,7 @@
 Descrição: Desenvolveremos uma API que visa oferecer uma experiência personalizada para estudantes que se preparam para vestibulares, utilizando IA para otimizar o aprendizado e a organização do tempo. As principais funcionalidades incluem Diagnóstico personalizado, Rotina de estudos personalizada, Sugestão de planos de estudos a longo prazo,Integração com Recursos Externos.
 
 ## Backlog do Jira
-[Backlog do Jira](https://gdcesar.atlassian.net/jira/software/projects/KAN/boards/1)
+[Backlog do Jira](https://gdcesar.atlassian.net/jira/software/projects/KAN/boards/1/backlog)
 ## Board do Jira
 ![Captura de tela 2024-09-02 182702](https://github.com/user-attachments/assets/d79a2f4e-3c70-4b5a-bbae-d00048ac5e3f)
 
