@@ -1,5 +1,3 @@
-###  Grupo - GDCesar
-
 ## Nosso Time :
     - Dácio Augusto
     - Luis Filipe Teles
