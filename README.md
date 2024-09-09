@@ -3,7 +3,6 @@ Desenvolveremos uma API que visa oferecer uma experiência personalizada para es
 
 ## Nosso Time :
     - Dácio Augusto
-    - Luis Filipe Teles
     - Leonardo Granja
     - Tiago Monteiro
     - Thiago Cunha
