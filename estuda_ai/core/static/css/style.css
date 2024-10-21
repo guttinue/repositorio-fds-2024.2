@@ -1,50 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
+    padding-top: 70px; /* Espaço para a navbar fixa */
 }
 
 h1, h2 {
-    text-align: center;
+    margin-top: 20px;
 }
 
-form {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-top: 50px;
+.jumbotron {
+    background-color: #e9ecef;
 }
 
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
 }
 
-button {
-    padding: 10px 20px;
-    margin-top: 10px;
-    width: 100%;
-}
-
-p {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.message {
-    text-align: center;
-    color: red;
+.btn-block {
     margin-top: 20px;
 }
