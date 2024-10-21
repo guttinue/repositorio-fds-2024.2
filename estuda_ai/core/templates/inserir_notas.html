@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Inserir Notas do ENEM</h2>
+<form method="post">
+    {% csrf_token %}
+    <label>Linguagens, Códigos e suas Tecnologias:</label><br>
+    Nota: <input type="number" name="linguagens_nota" step="0.01" required><br>
+    Peso: <input type="number" name="linguagens_peso" step="0.01" required><br><br>
+
+    <label>Matemática e suas Tecnologias:</label><br>
+    Nota: <input type="number" name="matematica_nota" step="0.01" required><br>
+    Peso: <input type="number" name="matematica_peso" step="0.01" required><br><br>
+
+    <label>Ciências da Natureza e suas Tecnologias:</label><br>
+    Nota: <input type="number" name="natureza_nota" step="0.01" required><br>
+    Peso: <input type="number" name="natureza_peso" step="0.01" required><br><br>
+
+    <label>Ciências Humanas e suas Tecnologias:</label><br>
+    Nota: <input type="number" name="humanas_nota" step="0.01" required><br>
+    Peso: <input type="number" name="humanas_peso" step="0.01" required><br><br>
+
+    <label>Redação:</label><br>
+    Nota: <input type="number" name="redacao_nota" step="0.01" required><br>
+    Peso: <input type="number" name="redacao_peso" step="0.01" required><br><br>
+
+    <button type="submit">Enviar Notas</button>
+</form>
+{% endblock %}

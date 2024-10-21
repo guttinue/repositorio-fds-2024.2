@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Seu Resultado</h2>
+<ul>
+    <li>Linguagens: Nota = {{ notas.linguagens_nota }}, Peso = {{ notas.linguagens_peso }}</li>
+    <li>Matemática: Nota = {{ notas.matematica_nota }}, Peso = {{ notas.matematica_peso }}</li>
+    <li>Natureza: Nota = {{ notas.natureza_nota }}, Peso = {{ notas.natureza_peso }}</li>
+    <li>Humanas: Nota = {{ notas.humanas_nota }}, Peso = {{ notas.humanas_peso }}</li>
+    <li>Redação: Nota = {{ notas.redacao_nota }}, Peso = {{ notas.redacao_peso }}</li>
+</ul>
+<p>Sua média ponderada é: <strong>{{ media_ponderada|floatformat:2 }}</strong></p>
+<a href="{% url 'dashboard' %}">Voltar ao Dashboard</a>
+{% endblock %}

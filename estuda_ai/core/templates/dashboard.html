@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Olá, {{ user.username }}!</h1>
+<p>Você está logado com sucesso.</p>
+<a href="{% url 'inserir_notas' %}">Inserir Notas do ENEM</a><br>
+<a href="{% url 'resultado' %}">Ver Resultado</a><br>
+<a href="{% url 'logout' %}">Sair</a>
+{% endblock %}
