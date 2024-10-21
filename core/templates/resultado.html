@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Detalhes da Nota</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Curso</th>
+        <td>{{ notas.curso.nome }}</td>
+    </tr>
+    <tr>
+        <th>Linguagens</th>
+        <td>{{ notas.linguagens_nota }}</td>
+    </tr>
+    <tr>
+        <th>Matemática</th>
+        <td>{{ notas.matematica_nota }}</td>
+    </tr>
+    <tr>
+        <th>Natureza</th>
+        <td>{{ notas.natureza_nota }}</td>
+    </tr>
+    <tr>
+        <th>Humanas</th>
+        <td>{{ notas.humanas_nota }}</td>
+    </tr>
+    <tr>
+        <th>Redação</th>
+        <td>{{ notas.redacao_nota }}</td>
+    </tr>
+    <tr>
+        <th>Média Ponderada</th>
+        <td>{{ media_ponderada|floatformat:2 }}</td>
+    </tr>
+</table>
+<a href="{% url 'historico' %}" class="btn btn-secondary">Voltar ao Histórico</a>
+{% endblock %}

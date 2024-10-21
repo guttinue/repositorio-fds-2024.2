@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Olá, {{ user.name }}!</h1>
+    <p class="lead">O que você gostaria de fazer?</p>
+    <a href="{% url 'inserir_notas' %}" class="btn btn-success btn-lg mr-2">Inserir Notas do ENEM</a>
+    <a href="{% url 'historico' %}" class="btn btn-info btn-lg mr-2">Ver Histórico</a>
+    <a href="{% url 'rotina_personalizada' %}" class="btn btn-warning btn-lg mr-2">Rotina Personalizada</a>
+    <a href="{% url 'cursos_recomendados' %}" class="btn btn-primary btn-lg">Cursos Recomendados</a>
+    <a href="{% url 'historico' %}" class="btn btn-info btn-lg mr-2">Ver Histórico</a>
+
+</div>
+{% endblock %}

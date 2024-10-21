@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Cursos Recomendados</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Curso</th>
+            <th>Média Ponderada</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for recomendacao in recomendacoes %}
+        <tr>
+            <td>{{ recomendacao.curso }}</td>
+            <td>{{ recomendacao.media_ponderada|floatformat:2 }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="{% url 'cursos_recomendados' %}" class="btn btn-secondary">Voltar</a>
+{% endblock %}

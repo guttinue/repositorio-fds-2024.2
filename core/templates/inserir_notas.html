@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Inserir Notas do ENEM</h2>
+<form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="curso">Selecione o Curso:</label>
+        <select name="curso" id="curso" class="form-control" required>
+            {% for curso in cursos %}
+            <option value="{{ curso.id }}">{{ curso.nome }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    {% for disciplina in disciplinas %}
+    <div class="form-group">
+        <label for="{{ disciplina.campo_nota }}">{{ disciplina.nome }}:</label>
+        <input type="number" name="{{ disciplina.campo_nota }}" class="form-control" id="{{ disciplina.campo_nota }}" step="0.01" min="0" max="1000" required>
+    </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary btn-block">Enviar Notas</button>
+</form>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Seu Histórico de Notas</h2>
+{% if notas_list %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Curso</th>
+                <th>Média Ponderada</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for notas in notas_list %}
+            <tr>
+                <td>{{ notas.data_criacao|date:"d/m/Y H:i" }}</td>
+                <td>{{ notas.curso.nome }}</td>
+                <td>{{ notas.calcular_media_ponderada|floatformat:2 }}</td>
+                <td>
+                    <a href="{% url 'resultado' notas.id %}" class="btn btn-primary btn-sm">Ver Detalhes</a>
+                    <a href="{% url 'excluir_nota' notas.id %}" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja excluir esta entrada?');">Excluir</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>Você ainda não inseriu nenhuma nota.</p>
+{% endif %}
+<a href="{% url 'dashboard' %}" class="btn btn-secondary">Voltar ao Dashboard</a>
+{% endblock %}
