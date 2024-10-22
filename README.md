@@ -21,4 +21,5 @@ Desenvolveremos uma API que visa oferecer uma experiência personalizada para es
 ## Screencast
 [Screencast](https://drive.google.com/file/d/1tj8uTwzVK9dKZeIFNwSX78LWR4WDz28n/view?usp=sharing)
 ## Programação em pares
+[Pares](https://drive.google.com/file/d/13MBNtlnXAQn77-mJydZ0SZk4C32qbT5c/view?usp=sharing)
 Utilizamos o Discord para fazer a programação em pares, na qual um membro codava e os outros analisaram o código para verificar os bugs no momento de codar.
