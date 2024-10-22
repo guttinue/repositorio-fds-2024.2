@@ -20,3 +20,5 @@ Desenvolveremos uma API que visa oferecer uma experiência personalizada para es
 [Prototipo Lo-fi](https://dcio597715.invisionapp.com/freehand/Projetos---FDS-o4NOSJhnt)
 ## Screencast
 [Screencast](https://drive.google.com/file/d/1tj8uTwzVK9dKZeIFNwSX78LWR4WDz28n/view?usp=sharing)
+## Programação em pares
+Utilizamos o Discord para fazer a programação em pares, na qual um membro codava e os outros analisaram o código para verificar os bugs no momento de codar.
